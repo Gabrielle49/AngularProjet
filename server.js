@@ -4,7 +4,7 @@ let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 
 //this is a comment
-let mongoose = require('mongoose');
+let mongoose = require('mongoose'); 
 mongoose.Promise = global.Promise;
 //mongoose.set('debug', true);
 
